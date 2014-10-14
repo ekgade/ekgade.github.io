@@ -1,0 +1,9 @@
+---
+published: false
+---
+
+## Climate Change Scripts
+
+Today I focused my efforts on removing a subset of the 90 Terabits of data stored on the Altiscale cluster. The subset is for the [PoliInfomatics](http://poliinformatics.org/) conference to be held on 9-11 Nov of this year right here in Seattle. I was able to design (with the help of the incubator team!) a script which flagged all documents in the cluster which contained one or more mentions (via RegEx search) of the following words: natural disaster, global warming, fresh water, forest conservation, food security/security of food, desertification, IPCC, intergovernmental panel on climate change, CRU, climatic research unit, climategate, greenhouse gas, anthropogenic, anthropocene, ocean acidification, pollution, climate change. If these mentions exist, I snatched the title, URL, date, description and content of the page and store it with field and record delimiters. I then concatenated the results and the output is a text file of about 3.5 mg per single WARC file (the file storage format on the Altiscale cluster). By Thursday, I plan to run the script across the entire cluster and be ready to upload results to a MySQL database we will host on an Amazon Instance. Over all, very excited with the forward movement and very grateful to the help from Andrew, Dan and Bill.
+
+
