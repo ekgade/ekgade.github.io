@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            Incubator Blog 
+tagline:          .gov Data Processing 
+url:              http://ekgade.github.io
 paginate:         1
 baseurl:          /
 author:
@@ -17,7 +17,3 @@ author:
   url:            
   email:          ekgade@uw.edu
 
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
