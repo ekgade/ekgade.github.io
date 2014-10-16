@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Database Creation
@@ -13,4 +13,3 @@ Today three main tasks were accomplished:
 	3) I installed postgres locally on my machine (via [homebrew](http://brew.sh/)) and connected to the new database (trickier than it sounds!). I created some sample tables to hold the results of the above scripts. 
     
 Now I will run the scripts across the cluster over the next few days and concatenate results. Tuesday, I will attempt to upload the results into the database
-
