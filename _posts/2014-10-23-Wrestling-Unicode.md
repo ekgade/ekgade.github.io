@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Week Four of eSceince Data Incubator: Wrestling Unicode.
